@@ -77,7 +77,7 @@ optimizer = SGD(model.parameters(), lr = 0.1)   #create an optimizer object with
 
 print("Final bias, before optimization: " + str(model.final_bias.data) + "\n")
 
-for epoch in range(100):    #an epoch means a thorough round of data training
+for epoch in range(100000):    #an epoch means a thorough round of data training
 
     total_loss = 0  #stores the loss
 
